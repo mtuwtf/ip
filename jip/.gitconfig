@@ -1,0 +1,11 @@
+[user]
+        name = Mark Uemura
+        email = mtu@toraki.net
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        up = rebase
+        ci = commit
+[core]
+        editor = vi
