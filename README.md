@@ -114,9 +114,9 @@ You should also check the ip.html. It should have the following permissions:
 
 ## Web Server set up
 
-Assuming your dev machine has a public IP address and is accessible on the Internet.
+I am going to assume that your web server has a public IP address and is accessible on the Internet.
 
-Here is an example of my `/etc/httpd.conf` config on my dev machine:
+Here is an example of my `/etc/httpd.conf` config on my web server:
 
 ```
 # $Id: httpd.conf 503 2019-11-16 01:21:46Z mtu $
