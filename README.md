@@ -144,10 +144,26 @@ server "ip.mtu.wtf" {
 ```
 **Note: You will need to change the `server "ip.mtu.wtf" {` line to suit your environment. I'm assuming you also know how to set up Let's Encrypt to allow for TLS connections. Don't forget to update the *.pem* and *.key* files respectively **
 
+Now enable httpd and slowcgi with:
+
+```
+doas rcctl enable httpd
+
+doas rcctl enable slowcgi
+```
+
 Your `/etc/rc.conf.local` file should have these two entries:
 
 httpd_flags=
 
 slowcgi_flags=
+
+Start httpd and slowcgi with:
+
+```
+doas rcctl start httpd
+
+doas rcctl start slowcgi
+```
 
 There are some pictures on the [Wiki](https://github.com/mtuwtf/ip/wiki) to show what this will appear like.
