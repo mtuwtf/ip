@@ -150,5 +150,4 @@ httpd_flags=
 
 slowcgi_flags=
 
-
-WIP from here in terms of documentation.
+There are some pictures on the [Wiki](https://github.com/mtuwtf/ip/wiki) to show what this will appear like.
